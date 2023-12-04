@@ -2,5 +2,10 @@ package com.example.minesweeper;
 
 public enum State {
     HIDDEN,
-    ACTIVATED;
+    BOMB,
+    EMPTY,
+    ACTIVATED,
+    ONE,
+    TWO,
+    THREE
 }
